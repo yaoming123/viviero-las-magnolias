@@ -1,14 +1,13 @@
 :root {
-    --rojo: #d63031;
-    --celeste: #75c450;;
-    --fondo: #222;
-    --verde: #43a574;
+    --color1:#c20794;
+    --color2:#75c450;
+    --color3:white;
 }
 
 .message {
     font-size: 1em;
     text-align: center;
-    background-color: var(--celeste);
+    background-color: var(--color2);
     color: white;
 }
 
@@ -111,7 +110,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: var(--rojo);
+    color: var(--color1);
 
 
 }
@@ -125,13 +124,13 @@ nav ul li a::before {
 }
 
 nav ul li a.active::before {
-    background-color: var(--rojo);
+    background-color: var(--color1);
 }
 
 /* FIN NAV */
 
 .contenedor {
-    background-color: var(--celeste);
+    background-color: var(--color2);
     width: 95%;
     margin: auto;
 }
@@ -177,7 +176,7 @@ header p {
 /* header de h1 al h6{} */
 
 main {
-    background-color: var(--celeste);
+    background-color: var(--color2);
     height: auto;
     text-align: center;
     font-variant: all-petite-caps;
@@ -188,7 +187,7 @@ main {
     margin-top: auto;
     /* padding-top: 5em;
     padding-bottom: 5em; */
-    background-color: var(--celeste);
+    background-color: var(--color2);
 }
 
 
@@ -221,7 +220,7 @@ h3 {
 }
 
 #productos .button1:hover {
-    background-color: var(--rojo);
+    background-color: var(--color1);
     color: white;
 }
 
@@ -245,10 +244,6 @@ h3 {
     margin: 0 auto;
     max-width: 1200px;
 }
-/* .producto p{
-    font-size: 1.5em;
-    text-align: start;
-} */
 .producto img{
     width: 10em;
     height: 10em;
@@ -257,9 +252,6 @@ h3 {
 
 
 /* Seccion contacto */
-
-/* #contacto h1 {
-    font-size: 4rem; */
 
 #contacto h3 {
     font-size: 7rem;
@@ -350,7 +342,7 @@ footer a {
 
 .box_footer:hover {
     color: white;
-    background-color: var(--celeste);
+    background-color: var(--color2);
     transition-timing-function: linear;
 }
 
@@ -360,59 +352,7 @@ footer a {
 }
 
 
-/* selected link */
-@media screen and (max-width: 600px) {
 
-    .producto a.boton {
-        display: block;
-        width: 80%;
-        margin-bottom: 10px;
-        border-radius: 5px;
-        /* ser:ser1; */
-        /* height: 20px; */
-        box-sizing: content-box;
-    }
-
-    .scroll-section {
-        margin-top: -7rem;
-        padding-top: 7rem;
-    }
-}
-
-/* Media querys */
-@media screen and (max-width: 767px) {
-    .producto a.boton {
-        width: 100%;
-
-        display: block;
-        margin-bottom: 10px;
-        border-radius: 5px;
-        /* aspect-ratio: 1 / 1; */
-    }
-
-}
-
-@media screen and (min-width:1024px) {
-
-    header h1,
-    #productos h1,
-    #contacto h1 {
-        font-size: 7rem;
-        color: white;
-    }
-
-    #productos {
-        padding-top: 8em;
-        padding-bottom: 5em;
-
-    }
-
-    #productos p {
-        color: #FFF;
-        font-size: 3rem;
-    }
-
-}
 
 
 /* Estilos para el botón "Subir" */
@@ -476,7 +416,7 @@ footer a {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: var(--rojo);
+    background-color: var(--color1);
     color: #fff;
     padding: 10px 20px;
     font-size: 16px;
